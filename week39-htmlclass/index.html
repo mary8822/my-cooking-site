@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Cooking Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; line-height: 1.6; }
+    h1, h2 { margin: 0.6em 0; }
+    img { display: block; margin: 8px 0 16px; max-width: 100%; height: auto; }
+
+    
+    .nice-table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 760px;
+      margin-bottom: 24px;
+    }
+    .nice-table th,
+    .nice-table td {
+      border: 1px solid #d3d3d3;
+      padding: 10px;
+      text-align: center;
+    }
+    .nice-table thead th {
+      background: #eef5ff;
+      font-weight: 700;
+    }
+    .nice-table tbody tr:nth-child(even) {
+      background: #fafafa;
+    }
+    .nice-table tbody tr:hover {
+      background: #fff4d6;
+    }
+    .nice-table caption {
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Cooking Page</h1>
+  <p>
+    I love cooking because it’s creative, relaxing, and tasty! 🍳✨
+    My favorite dishes are pizza, pasta, and chocolate cake.
+  </p>
+
+  <h2>My Cooking Photos</h2>
+  <img src="images/dish.jpg" alt="My homemade dish" width="320">
+  <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80"
+       alt="Delicious homemade food" width="400">
+
+  <h2>Favorite Dishes</h2>
+  <table class="nice-table">
+    <caption>My Favorite Dishes</caption>
+    <thead>
+      <tr>
+        <th>Dish</th>
+        <th>Ingredients</th>
+        <th>Time (min)</th>
+        <th>Website</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Pizza</td>
+        <td>Flour, yeast, tomato, cheese</td>
+        <td>30</td>
+        <td><a href="https://www.simplyrecipes.com/recipes/homemade_pizza/"
+               target="_blank" rel="noopener noreferrer">Visit site</a></td>
+      </tr>
+      <tr>
+        <td>Pasta</td>
+        <td>Pasta, garlic, olive oil, parmesan</td>
+        <td>20</td>
+        <td><a href="https://www.bonappetit.com/recipe/spaghetti-aglio-e-olio"
+               target="_blank" rel="noopener noreferrer">Visit site</a></td>
+      </tr>
+      <tr>
+        <td>Chocolate Cake</td>
+        <td>Cocoa, flour, eggs, butter</td>
+        <td>40</td>
+        <td><a href="https://www.sallysbakingaddiction.com/chocolate-cake/"
+               target="_blank" rel="noopener noreferrer">Visit site</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Weekly Cooking Plan</h2>
+  <table class="nice-table">
+    <caption>My Weekly Cooking Timetable</caption>
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Morning</th>
+        <th>Midday</th>
+        <th>Evening</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Monday</td>
+        <td>Prep veggies</td>
+        <td colspan="2">Batch cooking for the week</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>Pasta</td>
+        <td rowspan="2">Lunch Break</td>
+        <td>Salad</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Soup</td>
+        <td>Grilled chicken</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>Pancakes</td>
+        <td>Fruit bowl</td>
+        <td>Stir-fry</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>Omelette</td>
+        <td colspan="2" style="text-align:center;">🎉 Family Dinner Night</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
